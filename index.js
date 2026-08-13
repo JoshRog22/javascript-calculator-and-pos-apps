@@ -1,12 +1,8 @@
 /*
-Name: Joshua Rogers
-Class: CSCI-3300-W08
-Assignment: 06 Functions and Arrays
-Program Date: April 16, 2026
-File: index.js (home page) 
+Joshua Rogers
 */
 
-//Question 1 - Rectangle Calculator
+//Rectangle Calculator
 
 /*This function calculates the area of a rectangle.
 It receives height and width as parameters.
