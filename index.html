@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+Name: Joshua Rogers
+Class: CSCI-3300-W08
+Assignment: 06 Functions and Arrays
+Program Date: April 16, 2026
+File: index.html (home page) 
+-->
+
+<!--PLEASE NOTE!! There are several places where the instructions called to use an <h1> tag.
+    To prevent an validator thowing a warning, these tags have all been changed to <h2>.
+    The assingment also had some ambiguity regarding questions 2 and 3 being is seperate folder. 
+    I have placed everything in a single index folder, similar to our previous assignments, 
+    as that has been the acceptable standard thus far.
+    Thank you.
+    -Joshua Rogers-->
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Rogers Assignment 6</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <main>
+        <!--PAGE HEADER-->
+        <header>
+            <h1>Joshua Rogers Assignment 6</h1>
+            <p>Rectangle Calculator, Olympic Judging Calculator, and Point of Sale System</p>
+        </header>
+
+        <!--Question 1 section-->
+        <section>
+            <h2>Question 1 - Joshua Rogers's Rectangle Calculator</h2>
+
+
+            <div class="app-box">
+                <!--label and input for rectangle height-->
+                <label for="height">Rectangle Height:</label>
+                <input type="text" id="height">
+
+                <!--label and input for rectangle width-->
+                <label for="width">Rectangle Width:</label>
+                <input type="text" id="width">
+
+                <!--runs calculator function from JS when clicked-->
+                <button type="button" onclick="calculateRectangle()">Calculate Rectangle</button>
+
+                <!--empty div for question 1 results-->
+                <div id="rectangleOutput" class="output-box"></div>
+            </div>
+        </section>
+
+        <hr> <!--Line Break-->
+
+        <!--Question 2 section-->
+        <section>
+            <h2>Question 2 - Joshua Rogers's Olympic Judging Calculator</h2>
+
+            <div class="app-box">
+                <p>Enter the scores from eight judges:</p>
+
+                <!--8 input boxes for the user to to type one score for each judge-->
+                <label for="judge1">Judge 1:</label>
+                <input type="text" id="judge1">
+
+                <label for="judge2">Judge 2:</label>
+                <input type="text" id="judge2">
+
+                <label for="judge3">Judge 3:</label>
+                <input type="text" id="judge3">
+
+                <label for="judge4">Judge 4:</label>
+                <input type="text" id="judge4">
+
+                <label for="judge5">Judge 5:</label>
+                <input type="text" id="judge5">
+
+                <label for="judge6">Judge 6:</label>
+                <input type="text" id="judge6">
+
+                <label for="judge7">Judge 7:</label>
+                <input type="text" id="judge7">
+
+                <label for="judge8">Judge 8:</label>
+                <input type="text" id="judge8">
+
+                <!--button for to run the calculateJudging() function-->
+                <button type="button" onclick="calculateJudging()">Calculate Unbiased Average</button>
+
+                <!--this div will display the judging resutls-->
+                <div id="judgingOutput" class="output-box"></div>
+            </div>
+        </section>
+
+        <hr><!--line break-->
+
+        <!--Question 3 section-->
+        <section>
+            <h2>Question 3 - Joshua Rogers's Point of Sale System</h2>
+
+            <div class="app-box">
+                <h2>Available Products</h2>
+
+                <!--list of products and prices-->
+                <div id="productList" class="output-box"></div>
+
+                <!--select menu for user to choose product.
+                The value for each option matches a key in the products object-->
+                <label for="productSelect">Choose a Product:</label>
+                <select id="productSelect">
+                    <option value="umbrella">Umbrella</option>
+                    <option value="raincoat">Rain Coat</option>
+                    <option value="swimsuit">Swimsuit</option>
+                </select>
+
+                <!--imput box for user to select quantity-->
+                <label for="quantity">Quantity:</label>
+                <input type="text" id="quantity">
+
+                <!--button adds the selcted products and quantity to the shopping cart-->
+                <button type="button" onclick="addToCart()">Add to Cart</button>
+
+                <!--shows items that were added to the cart-->
+                <h2>Cart</h2>
+                <div id="cartOutput" class="output-box"></div>
+
+                <!--shows the running total-->
+                <h2>Running Total</h2>
+                <div id="totalOutput" class="output-box">$0.00</div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--footer and copy right at bototom of page-->
+    <footer>
+        <p>&copy; 2026 Joshua Rogers</p>
+    </footer>
+
+</body>
+
+</html>

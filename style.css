@@ -1,0 +1,166 @@
+/*
+Name: Joshua Rogers
+Class: CSCI-3300-W08
+Assignment: 06 functions and arrays
+Pragram Date: April 16, 2026
+File: style.css
+*/
+
+
+/*PAGE STRUCTURE*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    margin: 0;
+    background-color: #c7c3c3;
+    color: #333;
+}
+
+/*Main content area*/
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+}
+
+/*Optional container if used*/
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+}
+
+/*HEADER STYLING*/
+header h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #e0e0e0;
+}
+
+/*SECTION STYLING*/
+section {
+    margin-top: 24px;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+section p {
+    color: #e0e0e0;
+}
+
+/*DIVIDER (HR)*/
+hr {
+    border: none;
+    height: 2px;
+    background-color: #555;
+    margin: 30px 0;
+}
+
+/*FORM ELEMENTS*/
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: white;
+}
+
+/*Text inputs*/
+input {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #666;
+    margin-bottom: 10px; /*fixed capitalization*/
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #2c2c2c;
+    color: white;
+}
+
+/*Input focus highlight*/
+input:focus {
+    outline: none;
+    border-color: #007acc;
+}
+
+/*Dropdown menu styling*/
+select {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #666;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #2c2c2c;
+    color: white;
+}
+
+/*BUTTON STYLING*/
+button {
+    display: block; /* ensures button appears below inputs */
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/*Hover effect*/
+button:hover {
+    background-color: #005fa3;
+}
+
+/*OUTPUT AREAS*/
+
+/*
+Used for displaying results of calculations
+(rectangle results, judging results, cart, etc.)
+*/
+.output-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #2c2c2c;
+    border: 1px solid #666;
+    border-radius: 8px;
+    color: white;
+    white-space: pre-wrap;
+}
+
+/*FOOTER*/
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
